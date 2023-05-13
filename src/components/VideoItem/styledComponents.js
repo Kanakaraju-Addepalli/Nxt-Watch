@@ -80,6 +80,9 @@ export const SocialButton = styled.button`
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
   cursor: pointer;
   color: ${props => props.color};
 `

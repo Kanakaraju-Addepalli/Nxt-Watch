@@ -87,8 +87,8 @@ const VideoItem = props => {
                           color={likeIconColor}
                           onClick={onClickLike}
                         >
-                          <AiOutlineLike size={23} />
-                          <ButtonText>Like</ButtonText>
+                          <AiOutlineLike size={20} />
+                          Like
                         </SocialButton>
                       </BtnContainer>
                       <BtnContainer>
@@ -97,8 +97,8 @@ const VideoItem = props => {
                           color={dislikeIconColor}
                           onClick={onClickDislike}
                         >
-                          <AiOutlineDislike size={23} />
-                          <ButtonText>Dislike</ButtonText>
+                          <AiOutlineDislike size={20} />
+                          Dislike
                         </SocialButton>
                       </BtnContainer>
                       <BtnContainer>
