@@ -16,16 +16,12 @@ export const BannerContainer = styled.div`
   width: 100%;
   background-size: cover;
   height: 250px;
+  display: flex;
   justify-content: space-between;
   padding: 40px;
-  display: ${props => props.display};
 `
-export const BannerLeftPart = styled.div`
+export const BannerContent = styled.div`
   width: 60%;
-`
-export const BannerRightPart = styled.div`
-  display: flex;
-  justify-content: flex-end;
 `
 
 export const BannerImage = styled.img`
